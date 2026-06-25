@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPT Invitational League Mùa 22</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<section class="hero">
+
+<div class="container">
+
+<div class="header">
+    <img src="image/Banner.png" class="banner">
+
+    <h1>SPT Invitational League Mùa 22</h1>
+
+    <div class="logo-wrap">
+        <img src="image/SPT.jpg" class="league-logo">
+    </div>
+
+    <p>
+        Giải đấu bóng đá phong trào hàng đầu dành cho các đội bóng đam mê và nhiệt huyết.
+    </p>
+</div>
+<div class="countdown-box">
+    <div class="countdown-title">
+        ⏳ KHAI MẠC SAU
+    </div>
+
+    <div id="timer" class="countdown-timer">
+        Đang tải...
+    </div>
+</div>
+<div class="stats-section">
+
+    <div class="stat-box">
+        <span class="stat-number">32</span>
+        <span class="stat-title">Đội Tham Dự</span>
+    </div>
+
+    <div class="stat-box">
+        <span class="stat-number">64+</span>
+        <span class="stat-title">Trận Đấu</span>
+    </div>
+
+    <div class="stat-box">
+        <span class="stat-number">480+</span>
+        <span class="stat-title">Bàn Thắng</span>
+    </div>
+
+    <div class="stat-box">
+        <span class="stat-number">1</span>
+        <span class="stat-title">Nhà Vô Địch</span>
+    </div>
+
+</div>
+<div class="extra-section">
+
+    <div class="card">
+
+        <h2>🏆 Bảng Xếp Hạng</h2>
+
+        <table class="league-table">
+            <tr>
+                <th>Hạng</th>
+                <th>Đội</th>
+                <th>Điểm</th>
+            </tr>
+
+            <tr>
+                <td>1</td>
+                <td>SPT FC</td>
+                <td>9</td>
+            </tr>
+
+            <tr>
+                <td>2</td>
+                <td>Thunder FC</td>
+                <td>6</td>
+            </tr>
+
+            <tr>
+                <td>3</td>
+                <td>Galaxy FC</td>
+                <td>3</td>
+            </tr>
+
+            <tr>
+                <td>4</td>
+                <td>Warriors FC</td>
+                <td>0</td>
+            </tr>
+        </table>
+
+    </div>
+
+    <div class="card">
+
+        <h2>📅 Lịch Thi Đấu</h2>
+
+        <div class="match">
+            <span>SPT FC</span>
+            <b>VS</b>
+            <span>Thunder FC</span>
+        </div>
+
+        <div class="match">
+            <span>Galaxy FC</span>
+            <b>VS</b>
+            <span>Warriors FC</span>
+        </div>
+
+        <div class="match">
+            <span>SPT FC</span>
+            <b>VS</b>
+            <span>Galaxy FC</span>
+        </div>
+
+    </div>
+
+</div>
+
+<div class="grid">
+
+    <div class="card">
+
+        <h2>Thông Tin Giải Đấu</h2>
+
+        <div class="info-item">
+            📍 Địa điểm: <b>SPT Stadium</b>
+        </div>
+
+        <div class="info-item">
+            📅 Khai mạc: <b>2026-07-02</b>
+        </div>
+
+        <div class="info-item">
+            ⚽ Thể thức: <b>Vòng Bảng + Knock-out</b>
+        </div>
+
+        <div class="info-item">
+            👥 Số lượng đội: <b>32 Đội</b>
+        </div>
+
+        <div class="info-item">
+            🎟️ Lệ phí tham dự: <b>Không Có</b>
+        </div>
+
+        <br>
+
+        <h2>Cơ Cấu Giải Thưởng</h2>
+
+        <div class="prize">
+            🥇 Vô địch: Vinh danh 
+        </div>
+
+        <div class="prize">
+        🥈 Á quân: Vinh danh
+        </div>
+
+        <div class="prize">
+        🥉 Hạng ba: Vinh danh
+</div>
+
+    </div>
+
+    <div class="card">
+
+        <h2>Đăng Ký Tham Gia</h2>
+
+        <p style="font-size:18px;margin-bottom:25px;">
+            Tham gia giải đấu bóng đá cộng đồng lớn nhất của cộng đồng và hệ thống SPT.
+        </p>
+
+        <a
+            href="https://docs.google.com/forms/d/e/1FAIpQLSdQxaqbPOt-i1ah0uYAs3__7gEn8u1mGnztxVpm2MxeW9liPg/viewform"
+            target="_blank"
+            class="register-btn"
+        >
+            🏆 ĐĂNG KÝ THAM GIA
+        </a>
+<div class="slots-box">
+
+    <div class="slots-title">
+        ⚽ Tình Trạng Đăng Ký
+    </div>
+
+    <div class="slots-text">
+        Đã đăng ký <span id="registered">21</span> / 32 đội
+    </div>
+
+    <div class="progress-bar">
+        <div id="progress" class="progress-fill"></div>
+    </div>
+
+    <div class="slots-left">
+        🔥 Còn lại <span id="remaining">11</span> suất
+    </div>
+
+</div>
+        <p class="slot-left">
+            🔥 Chỉ nhận 32 đội đăng ký đầu tiên
+        </p>
+
+    </div>
+
+</div>
+
+<div class="footer">
+    <div class="card contact-card">
+
+    <h2>📞 Liên Hệ Ban Tổ Chức</h2>
+
+    <div class="contact-item">
+        👤 Trưởng BTC: MrHuyNoob - Trọng Thuỷ
+    </div>
+
+    <div class="contact-item">
+        📱 Hotline: 0797772250
+    </div>
+
+    <div class="contact-item">
+        💬 Zalo: 0868849642
+    </div>
+
+    <div class="contact-item">
+        📧 Email: btcsptleague@gmail.com
+    </div>
+</div>
+<a href="https://chat.zalo.me/?null" class="contact-btn">
+💬 Liên Hệ Zalo
+</a>
+    <p>© 2026 SPT Invitational League Mùa 22 | Ban Tổ Chức Giải Đấu</p>
+</div>
+
+</div>
+
+</section>
+...
+
+<script>
+const targetDate = new Date("2026-07-02T21:45:00");
+
+function updateCountdown(){
+    const timer = document.getElementById("timer");
+
+    if(!timer) return;
+
+    const now = new Date();
+    const diff = targetDate - now;
+
+    if(diff <= 0){
+        timer.innerHTML = "ĐÃ KHAI MẠC";
+        return;
+    }
+
+    const days = Math.floor(diff / (1000*60*60*24));
+    const hours = Math.floor((diff % (1000*60*60*24)) / (1000*60*60));
+    const minutes = Math.floor((diff % (1000*60*60)) / (1000*60));
+    const seconds = Math.floor((diff % (1000*60)) / 1000);
+
+    timer.innerHTML =
+        `${days} ngày ${hours} giờ ${minutes} phút ${seconds} giây`;
+}
+
+updateCountdown();
+setInterval(updateCountdown,1000);
+</script>
+<script>
+document.addEventListener("DOMContentLoaded", function(){
+
+    const maxTeams = 32;
+    const registeredTeams = 21;
+
+    document.getElementById("registered").textContent = registeredTeams;
+
+    document.getElementById("remaining").textContent =
+        maxTeams - registeredTeams;
+
+    document.getElementById("progress").style.width =
+        (registeredTeams / maxTeams * 100) + "%";
+
+});
+</script>
+<script>
+const MAX_TEAMS = 32;
+
+fetch("https://docs.google.com/spreadsheets/d/e/2PACX-1vS4fKqdDL2anBpJnCkL2AxOxaDMke2J5QqtUHYr3oAnxf5E_YxE9KNIQa9qFLTUju1wzqKvD7HNEs5Q/pub?gid=1619192868&single=true&output=csv")
+  .then(res => res.text())
+  .then(csv => {
+
+      const rows = csv.trim().split("\n");
+
+      // trừ dòng tiêu đề
+      const registeredTeams = rows.length - 1;
+
+      document.getElementById("registered").textContent =
+          registeredTeams;
+
+      document.getElementById("remaining").textContent =
+          MAX_TEAMS - registeredTeams;
+
+      document.getElementById("progress").style.width =
+          (registeredTeams / MAX_TEAMS * 100) + "%";
+  })
+  .catch(err => console.log(err));
+</script>
+
+</body>
+</html>
